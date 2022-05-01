@@ -12,7 +12,7 @@ class BotAPI:
     new_pack_url = f"{base_url}createNewStickerSet"
     get_pack_url = f"{base_url}getStickerSet"
     add_to_pack_url = f"{base_url}addStickerToSet"
-    ERROR = "Oops, an error occurred. My owner has been notified. \n\nFor queries visit @StarkBotsChat"
+    ERROR = "Oops, an error occurred. My owner has been notified. \n\nFor queries visit @A13XBOTZ_SUPPORT"
     username = requests.get(base_url + "getMe").json()["result"]["username"]
     PACK_NAME = "fpack_{}_by_" + username
     NEW_PACK_NAME = "fpack{}_{}_by_" + username
